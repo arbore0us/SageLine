@@ -1,5 +1,5 @@
 # SageLine
-SageLine is a compressed self-index1) with similarities to roaring bitmap, bwt-indexes and judy array. It’s a variable-ary tree of bitmaps that can be used as a suffix tree of arbitrary binary data, randomly distributed binary data of fixed length (random unsigned integers) in the current proof of concept implementation.
+SageLine is a compressed self-index with similarities to roaring bitmap, bwt-indexes and judy array. It’s a variable-ary tree of bitmaps that can be used as a suffix tree of arbitrary binary data, randomly distributed binary data of fixed length (random unsigned integers) in the current proof of concept implementation.
 
 ## Introduction
 The structure is based on partitioning each integer and constructing the SageLine with one partition represented by each depth in the tree. 
